@@ -1,5 +1,5 @@
 import React from 'react'
-import { Line } from 'react-native-svg'
+import { Line } from '../../../expo/node_modules/react-native-svg'
 
 class HorizontalLine extends React.Component {
 

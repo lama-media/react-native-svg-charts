@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import { View } from 'react-native'
 import PropTypes from 'prop-types'
 import * as shape from 'd3-shape'
-import Svg, { G, Path } from 'react-native-svg'
+import Svg, { G, Path } from '../../expo/node_modules/react-native-svg'
 
 class PieChart extends PureComponent {
 

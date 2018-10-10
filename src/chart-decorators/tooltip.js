@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Circle, G, Line, Rect, Text } from 'react-native-svg'
+import { Circle, G, Line, Rect, Text } from '../../../expo/node_modules/react-native-svg'
 
 const Tooltip = ({ x, y, value, index, height, text, stroke, pointStroke }) => {
     return (

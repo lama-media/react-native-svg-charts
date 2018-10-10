@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Path } from 'react-native-svg'
+import { Path } from '../../expo/node_modules/react-native-svg'
 import * as interpolate from 'd3-interpolate-path'
 
 class AnimatedPath extends Component {

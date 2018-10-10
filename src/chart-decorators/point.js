@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Circle } from 'react-native-svg'
+import { Circle } from '../../../expo/node_modules/react-native-svg'
 
 const Point = ({ x, y, value, index, radius, color }) => {
     if (isNaN(value)) {
